@@ -7,7 +7,7 @@ valor = st.number_input("Valor")
 
 if modo == "Celsius a Fahrenheit":
     resultado = celsius * 9 / 5 + 32
-    st.write(f"{valor} ºC son {resultado} ºF")
+    st.write(f"{valor} ºC son {round(resultado, 2)} ºF")
 else: 
     resultado = (valor - 32) * 5 / 9
-    st.write(f"{valor} ºF son {resultado} ºC")
+    st.write(f"{valor} ºF son {round(resultado, 2)} ºC")
