@@ -23,3 +23,4 @@ elif modo == "Kelvin a Celsius":
     st.success(f"**{round(resultado, 2)} ºC**")
     st.caption(f"{valor} K son {round(resultado, 2)} ºC")
 
+st.caption("Made with Streamlit")
